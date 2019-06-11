@@ -1,83 +1,90 @@
-body{
+body {
     background-color: #D9D9D9;
+    margin: 0;
+    padding: 0;
 }
 
-.mainContent{
+.mainContent {
     width: 100%;
     margin: 0 auto;
     max-width: 700px;
     padding-top: 40px;
 }
 
-.navigation{
+.navigation {
     background: #3C6E71;
     position: fixed;
-    padding: 10px 20px;
+    padding: 10px 0 10px 20px;
     width: 100%;
 }
 
-.navigation__link{
+.navigation__link {
     color: #fff;
     text-decoration: none;
     padding: 25px;
     padding-left: 0;
 }
 
-.mainHeader{
+.mainHeader {
     border-bottom: 5px solid #3C6E71;
     border-radius: 5%;
     height: 160px;
     padding-bottom: 20px;
 }
 
-.mainHeader__title{
+.mainHeader__title {
     color: #353535;
     font-size: 42px;
     padding-top: 30px;
 }
 
-.mainHeader__subtitle{
+.mainHeader__subtitle {
     color: #353535;
     font-size: 21px;
 }
 
-.about{
+.about {
     margin-top: 30px;
 }
 
-.about__title{
+.about__title {
     color: #284B63;
 }
 
-.about__paragraph{
+.about__paragraph {
     padding-left: 10px;
 }
 
-.weeks{
+.weeks {
     margin: 80px 0;
 }
 
-.weeks__title{
+.weeks__title {
     font-size: 28px;
+    margin-top: 10px;
+    color: #353535;
 }
 
-.weeks__article--title{
-
+.weeks__article--title {
+    color: #353535;
 }
 
-.weeks__article--paragraph{
+.weeks__article--paragraph {
     padding-left: 10px;
 }
 
-.weeks__article--link{
+.weeks__article--link {
     text-decoration: none;
     color: #3C6E71;
     padding-left: 10px;
 }
 
-.mainFooter{
+.mainFooter {
     background: #3C6E71;
+    padding: 5px 0;
+}
+
+.mainFooter__paragraph{
     color: #fff;
-    padding: 10px 20px;
-    width: 100%;
+    text-align: center;
 }
