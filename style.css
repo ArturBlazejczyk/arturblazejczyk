@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: #eff1f3;
     margin: 0;
     padding: 0;
 }
@@ -12,7 +12,7 @@ body {
 }
 
 .navigation {
-    background: #3C6E71;
+    background: #223843;
     position: fixed;
     width: 100%;
 }
@@ -30,28 +30,37 @@ body {
     text-decoration: none;
     text-align: center;
     padding: 16px;
-    float: left;
+    float: right;
+}
+
+.mainLogo{
+    position:absolute;
+    width: 256px;
+    top: -18px;
+    left: -20px;
+    margin: 0;
+    padding: 0;
 }
 
 .navigation__menu--link:hover {
-    background: #718788;
+    background: #D8B4A0;
 }
 
 .mainHeader {
-    border-bottom: 5px solid #3C6E71;
+    border-bottom: 5px solid #223843;
     border-radius: 5%;
     height: 160px;
     padding-bottom: 20px;
 }
 
 .mainHeader__title {
-    color: #353535;
+    color: #223843;
     font-size: 42px;
     padding-top: 30px;
 }
 
 .mainHeader__subtitle {
-    color: #353535;
+    color: #223843;
     font-size: 21px;
 }
 
@@ -61,7 +70,7 @@ body {
 }
 
 .about__title {
-    color: #284B63;
+    color: #223843;
     text-align: center;
 }
 
@@ -72,36 +81,34 @@ body {
 .weeks {
     margin: 60px 0;
     padding: 20px 100px;
-    background: #EBF9FF;
+    background: #DBD3D8;
 }
 
 .weeks__title {
     font-size: 28px;
     margin-top: 10px;
-    color: #353535;
+    color: #223843;
     text-align: center;
 }
 
 .weeks__article {
-    padding: 5px 0;
-    border-bottom: 1px solid;
+    text-decoration: none;
+    color: #223843;
+    padding-left: 10px;
+    border-top:1px solid;
 }
 
 .weeks__article:hover {
-    background: #DEFFF7;
+    background: #D8B4A0;
 }
 
 .weeks__article--title {
-    color: #353535;
+    color: #223843;
+    padding-top: 10px;
+    margin: 0;
 }
 
 .weeks__article--paragraph {
-    padding-left: 10px;
-}
-
-.weeks__article--link {
-    text-decoration: none;
-    color: #3C6E71;
     padding-left: 10px;
 }
 
@@ -110,7 +117,7 @@ body {
 }
 
 .mainFooter {
-    background: #3C6E71;
+    background: #223843;
     padding: 5px 0;
 }
 
