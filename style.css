@@ -1,5 +1,5 @@
 body {
-    background-color: #D9D9D9;
+    background-color: rgb(255, 255, 255);
     margin: 0;
     padding: 0;
 }
@@ -14,15 +14,27 @@ body {
 .navigation {
     background: #3C6E71;
     position: fixed;
-    padding: 10px 0 10px 20px;
     width: 100%;
 }
 
-.navigation__link {
+.navigation__menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navigation__menu--link {
+    display: block;
     color: #fff;
     text-decoration: none;
-    padding: 25px;
-    padding-left: 0;
+    text-align: center;
+    padding: 16px;
+    float: left;
+}
+
+.navigation__menu--link:hover {
+    background: #718788;
 }
 
 .mainHeader {
@@ -84,7 +96,7 @@ body {
     padding: 5px 0;
 }
 
-.mainFooter__paragraph{
+.mainFooter__paragraph {
     color: #fff;
     text-align: center;
 }
