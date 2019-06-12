@@ -72,7 +72,7 @@ body {
 .weeks {
     margin: 60px 0;
     padding: 20px 100px;
-    background:#EBF9FF;
+    background: #EBF9FF;
 }
 
 .weeks__title {
@@ -82,9 +82,13 @@ body {
     text-align: center;
 }
 
-.weeks__article:hover{
+.weeks__article {
+    padding: 5px 0;
+    border-bottom: 1px solid;
+}
+
+.weeks__article:hover {
     background: #DEFFF7;
-    padding: 1px 0;
 }
 
 .weeks__article--title {
@@ -101,7 +105,7 @@ body {
     padding-left: 10px;
 }
 
-.week__container{
+.week__container {
     padding: 1px 0 0 0;
 }
 
