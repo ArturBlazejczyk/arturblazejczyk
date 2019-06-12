@@ -27,23 +27,25 @@ body {
 .navigation__menu--link {
     display: block;
     color: #fff;
+    font-size: 18px;
+    font-weight: bold;
     text-decoration: none;
     text-align: center;
-    padding: 16px;
+    padding: 20px;
     float: right;
-}
-
-.mainLogo{
-    position:absolute;
-    width: 256px;
-    top: -18px;
-    left: -20px;
-    margin: 0;
-    padding: 0;
 }
 
 .navigation__menu--link:hover {
     background: #D8B4A0;
+}
+
+.mainLogo {
+    position: absolute;
+    width: 256px;
+    top: -11px;
+    left: -20px;
+    margin: 0;
+    padding: 0;
 }
 
 .mainHeader {
@@ -78,6 +80,10 @@ body {
     padding-left: 10px;
 }
 
+.week__container {
+    padding: 1px 0 0 0;
+}
+
 .weeks {
     margin: 60px 0;
     padding: 20px 100px;
@@ -95,7 +101,7 @@ body {
     text-decoration: none;
     color: #223843;
     padding-left: 10px;
-    border-top:1px solid;
+    border-top: 1px solid;
 }
 
 .weeks__article:hover {
@@ -110,10 +116,6 @@ body {
 
 .weeks__article--paragraph {
     padding-left: 10px;
-}
-
-.week__container {
-    padding: 1px 0 0 0;
 }
 
 .mainFooter {
