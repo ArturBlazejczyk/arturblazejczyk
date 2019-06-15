@@ -9,34 +9,38 @@
     <title>Artur Błażejczyk - Strona Domowa</title>
 </head>
 
-<body>
+<body class="main-body">
+    <!--Górna część strony z nawigacją i logo-->
+    <header class="top-header">
+        <nav class="navigation">
+            <ul class="navigation__list">
+                <li class="navigation__item"><a class="navigation__link" href="#others">Others</a></li>
+                <li class="navigation__item"><a class="navigation__link" href="#devtools">DevTools</a></li>
+                <li class="navigation__item"><a class="navigation__link" href="#frontend">Frontend</a></li>
+                <li class="navigation__item"><a class="navigation__link" href="#js">JavaScript</a></li>
+                <li class="navigation__item"><a class="navigation__link" href="#css">CSS</a></li>
+                <li class="navigation__item"><a class="navigation__link" href="#html">HTML</a></li>
+                <li class="navigation__item"><a class="navigation__link--home" href="index.html">
+                        <img class="navigation__home--img" src="images/home.png" alt="odnośnik do strony głównej"></a>
+                </li>
+                <li class="navigation__item"><a class="navigation__link--logo" href="index.html">
+                        <img class="navigation__logo-img" src="images/logo_white.png" alt="logo strony"></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
-    <nav class="navigation">
-        <ul class="navigation__menu">
-            <li><a class="navigation__menu--link" href="#others">Others</a></li>
-            <li><a class="navigation__menu--link" href="#devtools">DevTools</a></li>
-            <li><a class="navigation__menu--link" href="#frontend">Frontend</a></li>
-            <li><a class="navigation__menu--link" href="#js">JavaScript</a></li>
-            <li><a class="navigation__menu--link" href="#css">CSS</a></li>
-            <li><a class="navigation__menu--link" href="#html">HTML</a></li>
-            <li><a class="navigation__menu--link homeLogo" href="index.html">
-                    <img src="images/home.png" alt="odnośnik do strony głównej"></a></li>
-            <li><a class="mainlogo" href="index.html">
-                    <img class="mainLogo__img" src="images/logo_white.png" alt="logo strony"></a></li>
-        </ul>
-    </nav>
-
-    <main class="mainContent">
-
-        <header class="mainHeader">
-            <h1 class="mainHeader__title" id="top">
+    <main class="main-content">
+    <!--Sekcja pod paskiem nawigacji-->
+        <header class="main-header">
+            <h1 class="main-header__title" id="top">
                 Artur Błażejczyk
             </h1>
-            <h2 class="mainHeader__subtitle">
+            <h2 class="main-header__subtitle">
                 HOMEPAGE
             </h2>
         </header>
-
+    <!--Sekcja about-->
         <section class="about">
             <h2 class="about__title">Co znajdziesz na tej stronie?</h2>
             <p class="about__paragraph">
@@ -49,33 +53,32 @@
                 Baw się dobrze!
             </p>
         </section>
+    <!--Menu pod about-->
         <div class="buttons-container">
-
-            <a class="buttons-container__link buttons-container__html buttons-container__light" href="#">
-                <h2>HTML</h2>
+            <a class="buttons-container__link buttons-container__light" href="#">
+                <h2 class="buttons-container__text">HTML</h2>
             </a>
-            <a class="buttons-container__link buttons-container__css buttons-container__dark" href="#">
-                <h2>CSS</h2>
+            <a class="buttons-container__link buttons-container__dark" href="#">
+                <h2 class="buttons-container__text">CSS</h2>
             </a>
-            <a class="buttons-container__link buttons-container__js buttons-container__dark" href="#">
-                <h2>JavaScript</h2>
+            <a class="buttons-container__link buttons-container__dark" href="#">
+                <h2 class="buttons-container__text">JavaScript</h2>
             </a>
-            <a class="buttons-container__link buttons-container__frontend buttons-container__light" href="#">
-                <h2>Frontend</h2>
+            <a class="buttons-container__link buttons-container__light" href="#">
+                <h2 class="buttons-container__text">Frontend</h2>
             </a>
-            <a class="buttons-container__link buttons-container__devtools buttons-container__light" href="#">
-                <h2>DevTools</h2>
+            <a class="buttons-container__link buttons-container__light" href="#">
+                <h2 class="buttons-container__text">DevTools</h2>
             </a>
-            <a class="buttons-container__link buttons-container__others buttons-container__dark" href="#">
-                <h2>Others</h2>
+            <a class="buttons-container__link buttons-container__dark" href="#">
+                <h2 class="buttons-container__text">Others</h2>
             </a>
-
         </div>
 
     </main>
-
-    <footer class="mainFooter">
-        <p class="mainFooter__paragraph">Artur Błażejczyk &copy</p>
+    <!--Stopka strony-->
+    <footer class="main-footer">
+        <p class="main-footer__paragraph">Artur Błażejczyk &copy</p>
     </footer>
 
 </body>
