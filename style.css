@@ -26,7 +26,7 @@ body {
     padding-left: 10px;
 }
 
-.about__title {
+.about__header {
     color: #223843;
     text-align: center;
 }
@@ -50,7 +50,7 @@ body {
     font-weight: bold;
 }
 
-.article__title {
+.article__header {
     font-size: 32px;
     color: #bc7e5c;
     text-shadow: 1px 1px 1px #000;
