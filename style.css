@@ -97,7 +97,6 @@ body {
 .buttons-container__left {
     background: #D8B4A0;
     box-sizing: border-box;
-    border: 4px solid #223843;
     border-radius: 5%;
     margin-right: 5px;
     margin-bottom: 5px;
@@ -109,11 +108,34 @@ body {
     background: #D8B4A0;
     box-sizing: border-box;
     border-radius: 5%;
-    border: 4px solid #223843;
     margin-left: 5px;
     margin-bottom: 5px;
     margin-top: 5px;
     box-shadow: 5px 5px rgba(0, 0, 0, 0.158);
+}
+
+.buttons-container__light {
+    background: #D8B4A0;
+}
+
+.buttons-container__dark {
+    background: #223843;
+}
+
+.buttons-container__light:hover {
+    color: #fff;
+    text-shadow: none;
+    transition: 0, 7s;
+    text-shadow: 2px 2px #000;
+    background: #e1c5b7;
+}
+
+.buttons-container__dark:hover {
+    color: #fff;
+    text-shadow: none;
+    transition: 0, 7s;
+    text-shadow: 2px 2px #000;
+    background: #335566;
 }
 
 .buttons-container__link {
@@ -123,16 +145,6 @@ body {
     text-decoration: none;
     padding: 80px 0;
     transition: all 0.3s ease;
-    text-shadow: 2px 2px #000;
-}
-
-.buttons-container__link:hover {
-    background: #223843;
-    color: #fff;
-    text-shadow: none;
-    border: 4px solid #223843;
-    box-sizing: border-box;
-    transition: 0, 7s;
     text-shadow: 2px 2px #000;
 }
 
@@ -280,7 +292,7 @@ body {
 
 @media screen and (max-width: 699px) {
     .buttons-container__link {
-        width: 100%;
+        width: 50%;
         border-left: 0;
         border-right: 0;
     }
