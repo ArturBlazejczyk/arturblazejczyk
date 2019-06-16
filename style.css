@@ -27,21 +27,20 @@ body {
     color: #223843;
     text-align: center;
     text-transform: uppercase;
+    font-size: 32px;
 }
 
 .about__paragraph {
+    padding-top: 5px;
     padding-left: 10px;
     text-align: justify;
     text-indent: 40px;
     letter-spacing: 1px;
+    font-size: 18px;
 }
 
 .article {
     padding-bottom: 10px;
-}
-
-.article__description {
-    font-size: 18px;
 }
 
 .article__link {
@@ -59,6 +58,10 @@ body {
     font-size: 32px;
     color: #bc7e5c;
     text-shadow: 1px 1px 1px #000;
+}
+
+.article__paragraph {
+    font-size: 18px;
 }
 
 .buttons-container {
@@ -81,7 +84,6 @@ body {
     width: 50%;
     text-decoration: none;
     padding: 80px 0;
-    font-size: 36px;
     transition: all 0.3s ease;
 }
 
@@ -93,6 +95,7 @@ body {
     color: #fff;
     text-shadow: 2px 2px #000;
     text-align: center;
+    font-size: 54px;
 }
 
 .content-container {
@@ -109,7 +112,7 @@ body {
 
 .content-header__title {
     color: #fff;
-    font-size: 52px;
+    font-size: 54px;
     text-align: center;
     padding: 10px 0;
 }
