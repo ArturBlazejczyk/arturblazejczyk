@@ -20,15 +20,20 @@ body {
 .about {
     margin-top: 30px;
     margin-bottom: 60px;
-}
-
-.about__paragraph {
-    padding-left: 10px;
+    border-radius: 5%;
 }
 
 .about__header {
     color: #223843;
     text-align: center;
+    text-transform: uppercase;
+}
+
+.about__paragraph {
+    padding-left: 10px;
+    text-align: justify;
+    text-indent: 40px;
+    letter-spacing: 1px;
 }
 
 .article {
@@ -148,8 +153,6 @@ body {
 }
 
 .main-header {
-    border-bottom: 5px solid #223843;
-    border-radius: 5%;
     height: 160px;
     padding-bottom: 10px;
 }
@@ -218,6 +221,9 @@ body {
 .social-container {
     text-align: center;
     font-size: 48px;
+    border-top: 5px solid #223843;
+    border-bottom: 5px solid #223843;
+    border-radius: 3%;
 }
 
 .social__link {}
